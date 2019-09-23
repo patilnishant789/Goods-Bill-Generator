@@ -31,7 +31,3 @@ while question == 'yes':
         question = input("\nWant to continue? YES or NO: ").lower()
 print(f"Total price = {total}")
 
-print("~~ Thank You ~~")
-print()
-print()
-print()
