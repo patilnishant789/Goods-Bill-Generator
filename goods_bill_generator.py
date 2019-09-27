@@ -1,4 +1,3 @@
-print()
 goods = dict(apple=[24, 30], orange=[5, 40],
              pineapple=[25, 9], papaya=[20, 13])
 for fruit, price in goods.items():
@@ -29,5 +28,6 @@ while question == 'yes':
         for fruit, price in goods.items():
             print(f"{fruit} --> Price = {price[0]}, Quantity = {price[1]}")
         question = input("\nWant to continue? YES or NO: ").lower()
-print(f"Total price = {total}")
+print(f"Total Amount = Rs.{total}")
 
+print('Thank You')
